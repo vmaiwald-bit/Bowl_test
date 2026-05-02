@@ -1,6 +1,6 @@
 # Bowl Builder
 
-Kleine statische Website (jetzt inkl. einfacher PWA-Basis), die per Klick eine zufällige Bowl aus fünf Kategorien erzeugt.
+Kleine statische Website (inkl. einfacher PWA-Basis), die per Klick eine zufällige Bowl aus fünf Kategorien erzeugt.
 
 ## Projekt öffnen
 
@@ -11,13 +11,3 @@ Optionaler lokaler Server:
 
 ```bash
 python3 -m http.server 8000
-```
-
-Danach im Browser öffnen: `http://localhost:8000`
-
-## PWA-Hinweis (iPhone/iPad)
-
-- In Safari öffnen.
-- Auf **Teilen** tippen.
-- **Zum Home-Bildschirm** wählen.
-- Die App erscheint als „Bowl Builder“ mit Kurzname „Bowls".
