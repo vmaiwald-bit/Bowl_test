@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#2a9d8f" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Bowl Builder" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <title>Bowl Builder</title>
+    <link rel="manifest" href="manifest.json" />
+    <link rel="apple-touch-icon" href="icons/apple-touch-icon.svg" />
+    <link rel="icon" href="icons/icon-192.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>Bowl Builder</h1>
+      <p class="subtitle">Stelle dir per Klick eine leckere Zufalls-Bowl zusammen.</p>
+
+      <button id="generate-btn" type="button">Zufalls-Bowl erstellen</button>
+
+      <section class="result" aria-live="polite">
+        <h2>Deine Bowl</h2>
+        <ul id="bowl-output">
+          <li><strong>Basis:</strong> –</li>
+          <li><strong>Protein:</strong> –</li>
+          <li><strong>Gemüse:</strong> –</li>
+          <li><strong>Sauce:</strong> –</li>
+          <li><strong>Topping:</strong> –</li>
+        </ul>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
